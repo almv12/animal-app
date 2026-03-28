@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZooJoy — Заявка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css?v=2" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    .hidden { display: none !important; }
+    .apply-form-block.hidden, .apply-success.hidden { display: none !important; }
+  </style>
+</head>
+<body data-page="apply">
+
+  <header class="header" id="header">
+  <div class="container header__inner">
+    <a href="/index.html" class="logo">🐾 ZooJoy</a>
+    <nav class="nav" id="nav">
+      <a href="/index.html" class="nav__link" data-target="home">Главная</a>
+      <a href="/catalog.html" class="nav__link" data-target="catalog">Каталог</a>
+      <a href="/shelters.html" class="nav__link" data-target="shelters">Приюты</a>
+      <a href="/vets.html" class="nav__link" data-target="vets">Ветклиники</a>
+      <a href="/places.html" class="nav__link" data-target="places">Места</a>
+      <a href="/organizations.html" class="nav__link" data-target="organizations">Организации</a>
+      <a href="/about.html" class="nav__link" data-target="about">О проекте</a>
+      <a href="/apply.html" class="nav__link btn btn--primary btn--sm" data-target="apply">Заявка</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero__badge">📋 Заявка</span>
+      <h1 class="page-hero__title fade-in">Как ты хочешь помочь?</h1>
+      <p class="page-hero__subtitle fade-in">Выбери свою роль — мы свяжемся и всё расскажем</p>
+    </div>
+  </section>
+
+  <!-- ТАБЫ + ФОРМЫ -->
+  <section class="section" class="section section--alt">
+    <div class="container">
+
+      <!-- НАВИГАЦИЯ ПО ТАБАМ -->
+      <div class="apply-tabs-nav fade-in">
+        <button class="apply-tab active" data-target="tab-adopt">🏡 Усыновить</button>
+        <button class="apply-tab" data-target="tab-volunteer">🙌 Стать волонтёром</button>
+        <button class="apply-tab" data-target="tab-support">💛 Помочь приюту</button>
+      </div>
+
+      <!-- ТАБ 1: УСЫНОВИТЬ -->
+      <div class="apply-form-block fade-in" id="tab-adopt">
+        <h2 class="apply-form-block__title">🏡 Усыновить питомца</h2>
+        <p class="apply-form-block__subtitle">Расскажи о себе, и мы подберём идеального питомца</p>
+        <form class="apply-form">
+          <input type="text" class="apply-form__input" placeholder="Твоё имя" required />
+          <input type="text" class="apply-form__input" placeholder="Telegram или телефон" required />
+          <textarea class="apply-form__textarea" placeholder="Какое животное вас интересует? Кот или собака, возраст, характер — расскажите о своих пожеланиях"></textarea>
+          <button type="submit" class="btn btn--primary btn--lg">Отправить заявку →</button>
+        </form>
+        <div class="apply-success hidden">
+          <span class="apply-success__icon">✅</span>
+          Заявка отправлена! Мы свяжемся с тобой в ближайшее время.
+        </div>
+      </div>
+
+      <!-- ТАБ 2: ВОЛОНТЁР -->
+      <div class="apply-form-block fade-in hidden" id="tab-volunteer">
+        <h2 class="apply-form-block__title">🙌 Стать волонтёром</h2>
+        <p class="apply-form-block__subtitle">Твоя помощь бесценна — даже пара часов в неделю меняет жизнь</p>
+        <form class="apply-form">
+          <input type="text" class="apply-form__input" placeholder="Твоё имя" required />
+          <input type="text" class="apply-form__input" placeholder="Telegram или телефон" required />
+          <textarea class="apply-form__textarea" placeholder="Когда и как можете помочь? Выгул собак, помощь в приюте, транспортировка — расскажите, что вам близко"></textarea>
+          <button type="submit" class="btn btn--primary btn--lg">Стать волонтёром →</button>
+        </form>
+        <div class="apply-success hidden">
+          <span class="apply-success__icon">✅</span>
+          Заявка отправлена! Мы свяжемся с тобой в ближайшее время.
+        </div>
+      </div>
+
+      <!-- ТАБ 3: ПОМОЧЬ ПРИЮТУ -->
+      <div class="apply-form-block fade-in hidden" id="tab-support">
+        <h2 class="apply-form-block__title">💛 Помочь приюту</h2>
+        <p class="apply-form-block__subtitle">Корм, медикаменты, деньги или время — любая помощь важна</p>
+        <form class="apply-form">
+          <input type="text" class="apply-form__input" placeholder="Твоё имя" required />
+          <input type="text" class="apply-form__input" placeholder="Telegram или телефон" required />
+          <textarea class="apply-form__textarea" placeholder="Чем именно хотите помочь? Корм, лекарства, деньги на операции, вещи — напишите, что вы можете предложить"></textarea>
+          <button type="submit" class="btn btn--primary btn--lg">Помочь приюту →</button>
+        </form>
+        <div class="apply-success hidden">
+          <span class="apply-success__icon">✅</span>
+          Заявка отправлена! Мы свяжемся с тобой в ближайшее время.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- КАК МЫ РАБОТАЕМ -->
+  <section class="how-it-works section">
+    <div class="container">
+      <h2 class="section__title fade-in">Что будет дальше</h2>
+      <p class="section__subtitle fade-in">После отправки заявки</p>
+      <div class="steps">
+        <div class="step fade-in">
+          <div class="step__icon">📩</div>
+          <h3 class="step__title">Получим заявку</h3>
+          <p class="step__text">Заявка попадёт к нашему координатору. Обрабатываем в течение 24 часов.</p>
+        </div>
+        <div class="step__arrow fade-in">→</div>
+        <div class="step fade-in">
+          <div class="step__icon">💬</div>
+          <h3 class="step__title">Свяжемся</h3>
+          <p class="step__text">Напишем в Telegram или позвоним. Ответим на все вопросы и подберём вариант.</p>
+        </div>
+        <div class="step__arrow fade-in">→</div>
+        <div class="step fade-in">
+          <div class="step__icon">🤝</div>
+          <h3 class="step__title">Поможем</h3>
+          <p class="step__text">Вместе найдём лучший способ помочь — будь то усыновление, волонтёрство или поддержка.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="/index.html" class="logo logo--white">🐾 ZooJoy</a>
+      <p class="footer__tagline">Помогаем животным найти дом</p>
+      <div class="footer__social">
+        <a href="https://t.me/zoojoy_uz" target="_blank" class="social-link">✈️ Telegram</a>
+        <a href="https://instagram.com/zoojoy.uz" target="_blank" class="social-link">📸 Instagram</a>
+      </div>
+    </div>
+    <nav class="footer__nav">
+      <div class="footer__col">
+        <h4 class="footer__col-title">Платформа</h4>
+        <a href="/catalog.html" class="footer__link">Каталог животных</a>
+        <a href="/shelters.html" class="footer__link">Приюты</a>
+        <a href="/vets.html" class="footer__link">Ветклиники</a>
+        <a href="/places.html" class="footer__link">Места</a>
+        <a href="/organizations.html" class="footer__link">Организации</a>
+        <a href="/apply.html" class="footer__link">Волонтёры</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">О нас</h4>
+        <a href="/about.html" class="footer__link">О проекте</a>
+        <a href="/apply.html" class="footer__link">Подать заявку</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year"></span> ZooJoy.uz — все права защищены</p>
+  </div>
+</footer>
+
+  <script src="/script.js?v=2"></script>
+</body>
+</html>

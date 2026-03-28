@@ -1,0 +1,356 @@
+[
+  {
+    "id": "pf-001",
+    "name": "Cats & Friends",
+    "name_local": "Котокафе Cats & Friends",
+    "type": "Котокафе",
+    "category": "Кафе / развлечения",
+    "description": "Первое котокафе в Узбекистане (2024). Антикафе и коворкинг, где посетители общаются с кошками из приюта «Милые Кошки». 12 стерилизованных кошек с международными паспортами здоровья и прививками. Бесплатные напитки и WiFi. По субботам — пристройство кошек.",
+    "founded": 2024,
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "ул. Аккурган, 10",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": "https://instagram.com/catsandfriends.uz",
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "10:00–22:00"
+    },
+    "pricing": {
+      "first_hour": "38 000 сум",
+      "additional_hour": "20 000 сум"
+    },
+    "features": [
+      "12 кошек из приюта",
+      "Бесплатные напитки",
+      "WiFi",
+      "Коворкинг",
+      "Пристройство по субботам (11:00–20:00)",
+      "Своих животных нельзя"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Партнёр приюта «Милые Кошки»"
+  },
+  {
+    "id": "pf-002",
+    "name": "PetZoo.uz",
+    "name_local": "ПетЗу",
+    "type": "Зоомагазин",
+    "category": "Зоомагазин",
+    "description": "Зоомагазин и платформа по продаже зоотоваров. Корм, витамины, лакомства, аксессуары, игрушки, переноски. 96% рекомендаций (35 отзывов).",
+    "founded": null,
+    "city": "Ташкент",
+    "district": null,
+    "address": "ул. Чиланзарская, 3-й квартал, дом 23",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 93 555 55 20"],
+    "email": null,
+    "website": "https://petzoo.uz",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": "https://facebook.com/aquamarineuzbekistan"
+    },
+    "working_hours": null,
+    "features": [
+      "Корм для животных",
+      "Витамины и лакомства",
+      "Аксессуары и игрушки",
+      "Переноски",
+      "Аквариумные товары"
+    ],
+    "rating": 4.8,
+    "image_url": null,
+    "status": "active",
+    "notes": "96% рекомендуют (35 отзывов)"
+  },
+  {
+    "id": "pf-003",
+    "name": "ZOOMARKET Pet Shop",
+    "name_local": "Зоомаркет",
+    "type": "Зоомагазин",
+    "category": "Зоомагазин",
+    "description": "Зоомагазин в Мирзо-Улугбекском районе Ташкента.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "ул. Сайрам, 25, 100170",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "features": [
+      "Зоотовары",
+      "Корм для животных"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": null
+  },
+  {
+    "id": "pf-004",
+    "name": "Animal Pet Shop",
+    "name_local": "Анимал Пет Шоп",
+    "type": "Зоомагазин",
+    "category": "Зоомагазин",
+    "description": "Зоомагазин на проспекте Мирзо Улугбека.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "просп. Мирзо Улугбека, 40",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "features": [
+      "Зоотовары",
+      "Корм для животных"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": null
+  },
+  {
+    "id": "pf-005",
+    "name": "Star Dog Grooming Salon",
+    "name_local": "Стар Дог",
+    "type": "Груминг-салон",
+    "category": "Груминг",
+    "description": "Груминг-салон с широким спектром услуг: салонный груминг, выставочный груминг, уход за шерстью, SPA-процедуры, креативный груминг, экспресс-линька.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": null,
+    "address": "ул. Бобура, 67/6",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 93 515 17 39"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": "https://facebook.com/stardog67"
+    },
+    "working_hours": null,
+    "features": [
+      "Салонный груминг",
+      "Выставочный груминг",
+      "Уход за шерстью",
+      "SPA-процедуры",
+      "Креативный груминг",
+      "Экспресс-линька"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": null
+  },
+  {
+    "id": "pf-006",
+    "name": "Zoo Grooming",
+    "name_local": "Зу Груминг",
+    "type": "Груминг-салон",
+    "category": "Груминг",
+    "description": "Груминг-салон в Мирзо-Улугбекском районе.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "Буюк Ипак Йули, 27",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 99 789 11 99"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "до 19:00"
+    },
+    "features": [
+      "Груминг собак и кошек"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Есть на 2GIS"
+  },
+  {
+    "id": "pf-007",
+    "name": "КотоПёс Груминг",
+    "name_local": "KotoPes Grooming",
+    "type": "Груминг-салон",
+    "category": "Груминг",
+    "description": "Груминг-салон для кошек и собак.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": null,
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": "https://facebook.com/groomfetisova.uz"
+    },
+    "working_hours": null,
+    "features": [
+      "Груминг кошек и собак"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Связь через Facebook"
+  },
+  {
+    "id": "pf-008",
+    "name": "Courtyard by Marriott Tashkent",
+    "name_local": null,
+    "type": "Зоогостиница / Pet-friendly отель",
+    "category": "Зоогостиница",
+    "description": "Pet-friendly отель с продуманными удобствами для животных.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": null,
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": "https://www.marriott.com",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно"
+    },
+    "features": [
+      "Размещение с животными",
+      "Миски для еды и воды",
+      "Прогулки для собак",
+      "Специальное меню для питомцев"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Pet-friendly"
+  },
+  {
+    "id": "pf-009",
+    "name": "InterContinental Tashkent",
+    "name_local": null,
+    "type": "Зоогостиница / Pet-friendly отель",
+    "category": "Зоогостиница",
+    "description": "Пятизвёздочный отель, принимающий гостей с животными. Рейтинг 9.8.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": null,
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": "https://www.ihg.com",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно"
+    },
+    "features": [
+      "Размещение с животными",
+      "Миски для еды и воды"
+    ],
+    "rating": 9.8,
+    "image_url": null,
+    "status": "active",
+    "notes": "IHG"
+  },
+  {
+    "id": "pf-010",
+    "name": "Europe Hotel Tashkent",
+    "name_local": null,
+    "type": "Зоогостиница / Pet-friendly отель",
+    "category": "Зоогостиница",
+    "description": "Отель, принимающий всех животных. Рейтинг 9.2.",
+    "founded": null,
+    "city": "Ташкент",
+    "district": null,
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно"
+    },
+    "features": [
+      "Размещение с любыми животными"
+    ],
+    "rating": 9.2,
+    "image_url": null,
+    "status": "active",
+    "notes": "Принимает всех животных"
+  }
+]

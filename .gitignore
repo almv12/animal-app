@@ -1,0 +1,11 @@
+# Supabase credentials — не коммить реальные ключи!
+# Переименуй api.example.js → api.js и заполни своими данными
+.env
+.env.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

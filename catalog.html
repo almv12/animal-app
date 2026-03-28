@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ZooJoy — Каталог животных</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css?v=2" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+  <style>
+    .hidden { display: none !important; }
+    .apply-form-block.hidden, .apply-success.hidden { display: none !important; }
+  </style>
+</head>
+<body data-page="catalog">
+
+  <header class="header" id="header">
+  <div class="container header__inner">
+    <a href="/index.html" class="logo">🐾 ZooJoy</a>
+    <nav class="nav" id="nav">
+      <a href="/index.html" class="nav__link" data-target="home">Главная</a>
+      <a href="/catalog.html" class="nav__link" data-target="catalog">Каталог</a>
+      <a href="/shelters.html" class="nav__link" data-target="shelters">Приюты</a>
+      <a href="/vets.html" class="nav__link" data-target="vets">Ветклиники</a>
+      <a href="/places.html" class="nav__link" data-target="places">Места</a>
+      <a href="/organizations.html" class="nav__link" data-target="organizations">Организации</a>
+      <a href="/about.html" class="nav__link" data-target="about">О проекте</a>
+      <a href="/apply.html" class="nav__link btn btn--primary btn--sm" data-target="apply">Заявка</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero__badge">🐾 Каталог</span>
+      <h1 class="page-hero__title fade-in">Найди своего питомца</h1>
+      <p class="page-hero__subtitle fade-in">150+ животных из приютов Узбекистана ждут заботливого хозяина</p>
+    </div>
+  </section>
+
+  <!-- КАТАЛОГ -->
+  <section class="animals section">
+    <div class="container">
+
+      <!-- ФИЛЬТРЫ -->
+      <div class="catalog-filters fade-in">
+        <div class="catalog-filters__row">
+          <span class="catalog-filters__label">Вид:</span>
+          <div class="filter-chips">
+            <button class="filter-chip active" data-filter-type="all">Все</button>
+            <button class="filter-chip" data-filter-type="cat">🐱 Кошки</button>
+            <button class="filter-chip" data-filter-type="dog">🐶 Собаки</button>
+          </div>
+        </div>
+        <div class="catalog-filters__row">
+          <span class="catalog-filters__label">Город:</span>
+          <div class="filter-chips">
+            <button class="filter-chip active" data-filter-city="all">Все города</button>
+            <button class="filter-chip" data-filter-city="tashkent">Ташкент</button>
+            <button class="filter-chip" data-filter-city="samarkand">Самарканд</button>
+            <button class="filter-chip" data-filter-city="bukhara">Бухара</button>
+          </div>
+        </div>
+        <div class="catalog-filters__row">
+          <span class="catalog-filters__label">Статус:</span>
+          <div class="filter-chips">
+            <button class="filter-chip active" data-filter-status="all">Все</button>
+            <button class="filter-chip" data-filter-status="home">Ищет дом</button>
+            <button class="filter-chip" data-filter-status="urgent">Срочно</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- КАРТОЧКИ -->
+      <div class="animals__grid" id="animals-grid">
+        <p id="animals-loading" style="text-align:center;color:var(--muted);padding:40px;grid-column:1/-1">Загрузка...</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="/index.html" class="logo logo--white">🐾 ZooJoy</a>
+      <p class="footer__tagline">Помогаем животным найти дом</p>
+      <div class="footer__social">
+        <a href="https://t.me/zoojoy_uz" target="_blank" class="social-link">✈️ Telegram</a>
+        <a href="https://instagram.com/zoojoy.uz" target="_blank" class="social-link">📸 Instagram</a>
+      </div>
+    </div>
+    <nav class="footer__nav">
+      <div class="footer__col">
+        <h4 class="footer__col-title">Платформа</h4>
+        <a href="/catalog.html" class="footer__link">Каталог животных</a>
+        <a href="/shelters.html" class="footer__link">Приюты</a>
+        <a href="/vets.html" class="footer__link">Ветклиники</a>
+        <a href="/places.html" class="footer__link">Места</a>
+        <a href="/organizations.html" class="footer__link">Организации</a>
+        <a href="/apply.html" class="footer__link">Волонтёры</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">О нас</h4>
+        <a href="/about.html" class="footer__link">О проекте</a>
+        <a href="/apply.html" class="footer__link">Подать заявку</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year"></span> ZooJoy.uz — все права защищены</p>
+  </div>
+</footer>
+
+  <script src="/script.js?v=2"></script>
+
+<script src="/api.js"></script>
+<script>
+function renderAnimalCard(a) {
+  var isUrgent = a.status === 'urgent';
+  var badge = isUrgent
+    ? '<span class="badge badge--red">Срочно</span>'
+    : '<span class="badge badge--green">Ищет дом</span>';
+  var photoClass = isUrgent ? 'animal-card__photo animal-card__photo--urgent' : 'animal-card__photo';
+  var typeMap = {cat: '🐱 Кот/кошка', dog: '🐶 Собака', other: '🐾 Другое'};
+  var typeLabel = typeMap[a.type] || '🐾 ' + (a.type || 'Животное');
+  var emoji = a.emoji || (a.type === 'cat' ? '🐱' : '🐶');
+  var city = (a.city || 'Ташкент').toLowerCase().replace(/\s/g, '-');
+  return '<div class="animal-card" data-type="' + (a.type||'') + '" data-city="' + city + '" data-status="' + (a.status||'home') + '">'
+    + '<div class="' + photoClass + '">'
+    + '<div class="animal-card__emoji">' + emoji + '</div>'
+    + badge
+    + '</div>'
+    + '<div class="animal-card__body">'
+    + '<h3 class="animal-card__name">' + (a.name||'') + '</h3>'
+    + '<div class="animal-card__meta">'
+    + '<span>' + typeLabel + '</span>'
+    + (a.age ? '<span>📅 ' + a.age + '</span>' : '')
+    + (a.gender === 'male' ? '<span>♂ Мальчик</span>' : a.gender === 'female' ? '<span>♀ Девочка</span>' : '')
+    + '</div>'
+    + (a.shelter_name ? '<p class="animal-card__shelter">🏠 ' + a.shelter_name + (a.city ? ', ' + a.city : '') + '</p>' : '')
+    + '<a href="/apply.html" class="btn btn--primary btn--sm btn--full">Узнать больше</a>'
+    + '</div></div>';
+}
+
+sbFetch('animals', 'order=created_at.desc')
+  .then(function(data) {
+    var grid = document.getElementById('animals-grid');
+    if (!data || !data.length) {
+      grid.innerHTML = '<p style="grid-column:1/-1;text-align:center;color:var(--muted);padding:40px">Животных пока нет</p>';
+      return;
+    }
+    grid.innerHTML = data.map(renderAnimalCard).join('');
+    if (typeof initFadeIn === 'function') initFadeIn();
+    if (typeof initCatalogFilters === 'function') initCatalogFilters();
+  })
+  .catch(function(e) {
+    console.warn('animals fetch failed', e);
+    document.getElementById('animals-grid').innerHTML = '<p style="grid-column:1/-1;text-align:center;color:var(--muted);padding:40px">Ошибка загрузки: ' + e.message + '</p>';
+  });
+</script>
+</body>

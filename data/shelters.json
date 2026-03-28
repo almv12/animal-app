@@ -1,0 +1,270 @@
+[
+  {
+    "id": "shelter-001",
+    "name": "Приют «Хаёт»",
+    "name_local": "Hayot Shelter",
+    "type": "Приют для собак",
+    "animal_type": "Собаки",
+    "capacity": "7000+",
+    "adopted_count": "3500+",
+    "description": "Крупнейший приют для животных в Узбекистане. Основан Иродой Маткаримовой в 2018 году. Пристроили более 3500 животных. Работает исключительно на волонтёрской поддержке и пожертвованиях.",
+    "founded": 2018,
+    "founder": "Ирода Маткаримова",
+    "city": "Ташкент",
+    "district": "Кибрайский район",
+    "address": "мсг Зафарабод, Кибрайский район, Ташкентская область",
+    "coordinates": {
+      "lat": 41.95,
+      "lng": 69.30
+    },
+    "phone": ["+998 90 357 44 77", "+998 98 903 57 44 77"],
+    "email": null,
+    "website": "https://hayotislife.com",
+    "social_media": {
+      "telegram": "https://t.me/hayot_shelter",
+      "instagram": "https://instagram.com/hayot_jizn",
+      "facebook": "https://facebook.com/hayotislife"
+    },
+    "working_hours": null,
+    "services": [
+      "Стерилизация",
+      "Спасение и лечение",
+      "Вакцинация",
+      "Социализация",
+      "Подготовка к усыновлению",
+      "Пристройство собак"
+    ],
+    "rating": 4.5,
+    "image_url": null,
+    "status": "active",
+    "notes": "Аккаунт усыновлений: @hayot.adoptions"
+  },
+  {
+    "id": "shelter-002",
+    "name": "Приют «ГАВЧЕГ»",
+    "name_local": "GAVCHEG Shelter",
+    "type": "Приют для собак",
+    "animal_type": "Собаки",
+    "capacity": "750+",
+    "adopted_count": null,
+    "description": "Приют для бездомных собак в Ташкенте. Основан Сергеем Руснаком в 2016 году. Без традиционных клеток — собаки свободно перемещаются по территории. 21K подписчиков в Instagram. Усыновление по договору после собеседования.",
+    "founded": 2016,
+    "founder": "Сергей Руснак",
+    "city": "Ташкент",
+    "district": "Ахангаранский район",
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 90 908 38 12"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": "https://t.me/GavcheGuz",
+      "instagram": "https://instagram.com/gavcheguz",
+      "facebook": "https://facebook.com/gavcheg.uz"
+    },
+    "working_hours": null,
+    "services": [
+      "Спасение собак",
+      "Уход и содержание",
+      "Пристройство (с собеседованием и договором)"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "21K подписчиков в Instagram. Без клеток — собаки гуляют свободно."
+  },
+  {
+    "id": "shelter-003",
+    "name": "Приют «Милые Кошки»",
+    "name_local": "Milye Koshki",
+    "type": "Приют для кошек",
+    "animal_type": "Кошки",
+    "capacity": "~300",
+    "adopted_count": null,
+    "description": "Кошачий приют в Ташкенте. 24K подписчиков в Instagram. Приём новых кошек временно остановлен. Партнёр котокафе Cats&Friends. Усыновление бесплатно, по договору с предъявлением паспорта, только для жителей Ташкента.",
+    "founded": null,
+    "founder": "Саера",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "махалля «Олтин Водий», Сергелийский район, Ташкент",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 99 877 84 66"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": "https://instagram.com/milie_koshki.uz",
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Спасение кошек",
+      "Пристройство",
+      "Лечение",
+      "Приём пожертвований"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "24K подписчиков. Приём временно остановлен. Партнёр котокафе Cats&Friends."
+  },
+  {
+    "id": "shelter-004",
+    "name": "Приют «Четыре Лапы»",
+    "name_local": "Four Paws Tashkent",
+    "type": "Приют для собак",
+    "animal_type": "Собаки",
+    "capacity": "600–800",
+    "adopted_count": null,
+    "description": "Приют для собак, основанный в 2011 году. Расположен в Янгиюльском районе Ташкентской области. Активные аккаунты в Telegram и Instagram.",
+    "founded": 2011,
+    "founder": null,
+    "city": "Ташкент",
+    "district": "Янгиюльский район, Ташкентская область",
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 90 960 35 83", "+998 97 877 24 53"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": "https://t.me/fourpaws_tashkent",
+      "instagram": "https://instagram.com/fourpaws_tashkent",
+      "facebook": "https://facebook.com/chetire.lapki"
+    },
+    "working_hours": null,
+    "services": [
+      "Спасение собак",
+      "Уход и содержание",
+      "Пристройство"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Активный Telegram и Instagram"
+  },
+  {
+    "id": "shelter-005",
+    "name": "Приют «Васька»",
+    "name_local": "Vasky Cat Shelter",
+    "type": "Приют для кошек",
+    "animal_type": "Кошки",
+    "capacity": "~100+",
+    "adopted_count": null,
+    "description": "Кошачий приют в полуподвальном помещении жилого дома. Основан Алёной Цой. Работает исключительно на пожертвования, без государственной поддержки. 1794 подписчика, 5145 постов.",
+    "founded": null,
+    "founder": "Алёна Цой",
+    "city": "Ташкент",
+    "district": null,
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": "https://instagram.com/priyut_vaska_tashkent",
+      "facebook": "https://facebook.com/priyut.vaska.tashkent"
+    },
+    "working_hours": null,
+    "services": [
+      "Спасение кошек",
+      "Лечение",
+      "Пристройство"
+    ],
+    "donation_cards": {
+      "корм": "8600 1404 8541 2887",
+      "лечение": "8600 1404 0037 2190"
+    },
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "1794 подписчика. 5145 постов."
+  },
+  {
+    "id": "shelter-006",
+    "name": "Приют MEHR (AKFA Group)",
+    "name_local": "MEHR Shelter",
+    "type": "Корпоративный приют для собак",
+    "animal_type": "Собаки",
+    "capacity": "до 1200",
+    "adopted_count": null,
+    "description": "Корпоративный приют AKFA Group. Первый приют в Узбекистане с ветеринарной и кинологической службой. 11 блоков на 1 гектаре. Комфортабельные вольеры, зоны выгула, медицинские блоки, дезбарьеры, отделения для щенков и кормящих собак. Политика без усыпления.",
+    "founded": 2021,
+    "founder": "AKFA Group",
+    "city": "Пскентский район, Ташкентская область",
+    "district": "Пскентский район",
+    "address": "Узбекистан, 111410, Ташкентская обл., Пскентский р-н, объекты Х.Кадирова",
+    "coordinates": {
+      "lat": 41.84,
+      "lng": 69.40
+    },
+    "phone": ["+998 95 196 80 80"],
+    "email": null,
+    "website": "https://akfagroup.com/eng/akfa-mehr-charity",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Ветеринарная помощь",
+      "Кинологическая служба",
+      "Социализация",
+      "Подготовка к усыновлению",
+      "Стерилизация/кастрация",
+      "Микрочипирование"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Лауреат EMBRAS. Международное усыновление: США, Россия, Турция, Нидерланды."
+  },
+  {
+    "id": "shelter-007",
+    "name": "Приют (Пскентский район)",
+    "name_local": null,
+    "type": "Приют для собак",
+    "animal_type": "Собаки",
+    "capacity": null,
+    "adopted_count": null,
+    "description": "Безымянный приют в Пскентском районе Ташкентской области. Данные из anons.uz, требуют уточнения.",
+    "founded": null,
+    "founder": null,
+    "city": "Ташкентская область",
+    "district": "Пскентский район",
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 90 355 24 53", "+998 90 960 35 83"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Содержание собак"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "unverified",
+    "notes": "Данные из anons.uz. Требует уточнения."
+  }
+]

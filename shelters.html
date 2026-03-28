@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ZooJoy — Приюты</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="/styles.css?v=2"/>
+</head>
+<body data-page="shelters">
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="/index.html" class="logo">🐾 ZooJoy</a>
+    <nav class="nav" id="nav">
+      <a href="/index.html" class="nav__link" data-target="home">Главная</a>
+      <a href="/catalog.html" class="nav__link" data-target="catalog">Каталог</a>
+      <a href="/shelters.html" class="nav__link" data-target="shelters">Приюты</a>
+      <a href="/vets.html" class="nav__link" data-target="vets">Ветклиники</a>
+      <a href="/places.html" class="nav__link" data-target="places">Места</a>
+      <a href="/organizations.html" class="nav__link" data-target="organizations">Организации</a>
+      <a href="/about.html" class="nav__link" data-target="about">О проекте</a>
+      <a href="/apply.html" class="nav__link btn btn--primary btn--sm" data-target="apply">Заявка</a>
+    </nav>
+    <button class="hamburger" id="hamburger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</header>
+  <section class="page-hero">
+    <div class="container">
+      <span class="page-hero__badge">🏠 Приюты</span>
+      <h1 class="page-hero__title fade-in">Приюты-партнёры</h1>
+      <p class="page-hero__subtitle fade-in">6 приютов Узбекистана</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="shelters__grid" id="grid"><p id="loading" style="text-align:center;color:var(--muted);padding:40px">Загрузка...</p></div>
+    </div>
+  </section>
+  <section class="cta-banner">
+    <div class="container">
+      <h2 class="cta-banner__title fade-in">Хочешь помочь приюту?</h2>
+      <a href="/apply.html" class="btn btn--white btn--lg fade-in">Оставить заявку →</a>
+    </div>
+  </section>
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__brand">
+      <a href="/index.html" class="logo logo--white">🐾 ZooJoy</a>
+      <p class="footer__tagline">Помогаем животным найти дом</p>
+    </div>
+    <nav class="footer__nav">
+      <div class="footer__col">
+        <h4 class="footer__col-title">Платформа</h4>
+        <a href="/catalog.html" class="footer__link">Каталог животных</a>
+        <a href="/shelters.html" class="footer__link">Приюты</a>
+      </div>
+      <div class="footer__col">
+        <h4 class="footer__col-title">О нас</h4>
+        <a href="/about.html" class="footer__link">О проекте</a>
+        <a href="/apply.html" class="footer__link">Подать заявку</a>
+      </div>
+    </nav>
+  </div>
+  <div class="footer__bottom"><p>© <span id="year"></span> ZooJoy.uz</p></div>
+</footer>
+<script src="/script.js?v=2"></script>
+
+<script src="/api.js"></script>
+<script>
+function renderShelterCard(s) {
+  const emoji = (s.animal_type||'').toLowerCase().includes('кош') ? '🐱' : '🐶';
+  const sm = s.social_media || {};
+  const socials = [sm.telegram&&'<a href="'+sm.telegram+'" target="_blank">✈️ Telegram</a>',sm.instagram&&'<a href="'+sm.instagram+'" target="_blank">📸 Instagram</a>',sm.facebook&&'<a href="'+sm.facebook+'" target="_blank">🌐 Facebook</a>',s.website&&'<a href="'+s.website+'" target="_blank">🔗 Сайт</a>'].filter(Boolean).join('');
+  const phone = Array.isArray(s.phone) ? s.phone[0] : s.phone;
+  const services = Array.isArray(s.services) && s.services.length
+    ? '<div style="display:flex;flex-wrap:wrap;gap:4px;margin:6px 0">' + s.services.slice(0,4).map(x=>'<span style="font-size:.72rem;background:#f0faf5;color:#4CAF82;border:1px solid #c8eedd;padding:2px 8px;border-radius:12px;font-weight:600">'+x+'</span>').join('') + '</div>'
+    : '';
+  return '<div class="shelter-card"><div class="shelter-card__logo">'+emoji+'</div><h3 class="shelter-card__name">'+s.name+'</h3><div class="shelter-card__meta">'+(s.city?'<span>📍 '+s.city+'</span>':'')+(s.animal_type?'<span>'+emoji+' '+s.animal_type+'</span>':'')+(s.capacity?'<span>🏠 '+s.capacity+'</span>':'')+(s.rating?'<span>⭐ '+s.rating+'</span>':'')+'</div><p style="font-size:.9rem;color:var(--muted);margin:8px 0;line-height:1.6">'+(s.description||'')+'</p>'+services+(phone?'<a href="tel:'+phone.replace(/\s/g,'')+'" class="btn btn--primary btn--sm shelter-card__btn">📞 Позвонить</a>':'')+(socials?'<div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;font-size:.85rem">'+socials+'</div>':'')+'</div>';
+}
+
+sbFetch('shelters', 'status=eq.active&order=name')
+  .then(function(data) {
+    document.getElementById('loading')?.remove();
+    if (!data || !data.length) { document.getElementById('grid').innerHTML = '<p style="text-align:center;color:var(--muted);padding:40px">Ничего не найдено</p>'; return; }
+    document.getElementById('grid').innerHTML = data.map(renderShelterCard).join('');
+    if (typeof initFadeIn === 'function') initFadeIn();
+  })
+  .catch(function(e) { console.warn('shelters fetch failed', e); });
+</script>
+</body>
+</html>

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "nno-001",
+    "name": "Mehr va Oqibat",
+    "name_local": "Мехр ва Оқибат",
+    "type": "ННО",
+    "category": "Зоозащитная организация",
+    "description": "Старейшая и первая благотворительная организация по защите животных в Узбекистане. Основана в 2010 году. Занимается стерилизацией (8000+ животных), правовой защитой, образовательными программами («уроки доброты» в школах), рассмотрением случаев жестокого обращения (3000+ дел).",
+    "founded": 2010,
+    "city": "Ташкент",
+    "address": "ул. Сайрам 25, Ташкент, 100170, Узбекистан",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 93 564 22 32"],
+    "email": "mvouzb@gmail.com",
+    "website": "https://mehrvaoqibat.uz",
+    "social_media": {
+      "telegram": "https://t.me/mehrvaoqibat",
+      "instagram": "https://instagram.com/mehrvaoqibat",
+      "facebook": "https://facebook.com/mehrvaoqibat"
+    },
+    "working_hours": {
+      "weekdays": "09:00–18:00",
+      "saturday": "Закрыто",
+      "sunday": "Закрыто"
+    },
+    "services": [
+      "Стерилизация животных",
+      "Правовая защита животных",
+      "Образовательные программы",
+      "Расследование случаев жестокости",
+      "Законодательная адвокация"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Стерилизовано 8000+ животных, рассмотрено 3000+ случаев жестокого обращения"
+  },
+  {
+    "id": "nno-002",
+    "name": "Мушуккент",
+    "name_local": "Mushukkent",
+    "type": "Проект/ННО",
+    "category": "Защита бездомных кошек",
+    "description": "Проект по контролю и заботе о бездомных кошках Ташкента. Запущен в 2019 году для установки уличных кошачьих домиков и заботы о бездомных кошках. Связан с ННО «Хаёт». Партнёр — Uzum Bank.",
+    "founded": 2019,
+    "city": "Ташкент",
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": "https://mushukkent.uz",
+    "social_media": {
+      "telegram": "https://t.me/mushukkent",
+      "instagram": "https://instagram.com/mushukkent",
+      "facebook": "https://facebook.com/groups/Mushukkent"
+    },
+    "working_hours": null,
+    "services": [
+      "Установка и обслуживание кошачьих домиков",
+      "Забота о бездомных кошках",
+      "Кормление",
+      "Пристройство кошек",
+      "Волонтёрская программа"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Волонтёры: @volonteer_mushukkent. Партнёр: Uzum Bank."
+  },
+  {
+    "id": "nno-003",
+    "name": "Приют MEHR",
+    "name_local": "MEHR Shelter",
+    "type": "Корпоративный приют",
+    "category": "Приют при корпорации",
+    "description": "Первый приют в Узбекистане с ветеринарной и кинологической службой. Построен компанией AKFA Group в 2021 году. Вместимость до 1200 животных, 11 блоков на территории 1 гектар. Без усыпления животных. Международные усыновления в США, Россию, Турцию, Нидерланды.",
+    "founded": 2021,
+    "city": "Пскентский район, Ташкентская область",
+    "address": "Узбекистан, 111410, Ташкентская область, Пскентский район, объекты Х.Кадирова",
+    "coordinates": {
+      "lat": 41.84,
+      "lng": 69.40
+    },
+    "phone": ["+998 95 196 80 80"],
+    "email": null,
+    "website": "https://akfagroup.com",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Спасение животных",
+      "Ветеринарная помощь",
+      "Кинологическая служба",
+      "Социализация и подготовка к усыновлению",
+      "Стерилизация/кастрация",
+      "Микрочипирование",
+      "Международное усыновление"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "Лауреат Central Asia Employer Brand Award (EMBRAS) в категории «Good Deeds». До 1200 собак."
+  },
+  {
+    "id": "nno-004",
+    "name": "PetZoo.uz",
+    "name_local": "ПетЗу",
+    "type": "Платформа",
+    "category": "Зоомагазин / платформа",
+    "description": "Зоомагазин и платформа по продаже зоотоваров в Ташкенте. Продажа корма, витаминов, лакомств, аксессуаров, игрушек, переносок. Также является дистрибьютором брендов Profine, TRIXIE.",
+    "founded": null,
+    "city": "Ташкент",
+    "address": "ул. Чиланзарская, 3-й квартал, дом 23, Ташкент",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 93 555 55 20"],
+    "email": null,
+    "website": "https://petzoo.uz",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": "https://facebook.com/aquamarineuzbekistan"
+    },
+    "working_hours": null,
+    "services": [
+      "Продажа зоотоваров",
+      "Корм для животных",
+      "Аксессуары и игрушки",
+      "Аквариумные товары",
+      "Дистрибьюция брендов"
+    ],
+    "rating": null,
+    "image_url": null,
+    "status": "active",
+    "notes": "96% рекомендуют (35 отзывов). Прямой конкурент Zoojoy — изучить детально."
+  },
+  {
+    "id": "nno-005",
+    "name": "Hayot Is Life",
+    "name_local": "Ҳаёт — Это жизнь",
+    "type": "Сайт приюта",
+    "category": "Приют / платформа усыновления",
+    "description": "Первый официальный приют для животных в Узбекистане. Основан в 2018 году предпринимательницей Иродой Маткаримовой. Работает на волонтёрской поддержке и пожертвованиях, без государственного финансирования. 6000+ собак на содержании, 2500+ пристроено.",
+    "founded": 2018,
+    "city": "Ташкент",
+    "address": "Кибрайский район, пригород Ташкента (~25 км от центра)",
+    "coordinates": {
+      "lat": 41.95,
+      "lng": 69.30
+    },
+    "phone": ["+998 90 357 44 77"],
+    "email": null,
+    "website": "https://hayotislife.com",
+    "social_media": {
+      "telegram": null,
+      "instagram": "https://instagram.com/hayot_is_life_eng",
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Спасение собак",
+      "Стерилизация",
+      "Микрочипирование",
+      "Усыновление",
+      "Ветеринарная помощь",
+      "Регистрация базы животных"
+    ],
+    "rating": 4.5,
+    "image_url": null,
+    "status": "active",
+    "notes": "Рейтинг 4.5/5 на Trustpilot. Крупнейший приют по количеству животных."
+  }
+]

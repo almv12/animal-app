@@ -1,0 +1,617 @@
+[
+  {
+    "id": "vet-001",
+    "name": "ЗооДоктор",
+    "name_local": "ZooDoctor",
+    "category": "Ветеринарная клиника",
+    "description": "Многопрофильная ветеринарная клиника с широким спектром услуг. Вызов на дом, рентген, хирургия. Специалисты: гинекологи, орнитологи, дерматологи, терапевты, анестезиологи, хирурги, офтальмологи, онкологи.",
+    "city": "Ташкент",
+    "district": null,
+    "address": "ул. Мирабад 33, Ташкент",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 97 754 54 50", "+998 71 297 34 87", "+998 93 564 22 32"],
+    "email": null,
+    "website": "https://zoodoctor.uz",
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": "https://facebook.com/ZooDoctorUz"
+    },
+    "working_hours": {
+      "daily": "08:00–20:00"
+    },
+    "services": [
+      "Вызов на дом",
+      "Рентген",
+      "Хирургия",
+      "Пет-такси",
+      "Ветеринарная аптека",
+      "Зоогостиница",
+      "Справки и сертификаты",
+      "Груминг",
+      "Вакцинация",
+      "Кастрация",
+      "Обработка от паразитов",
+      "Чипирование",
+      "Стационар"
+    ],
+    "rating": 5.0,
+    "reviews_count": 441,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-002",
+    "name": "Ветклиника «Darel»",
+    "name_local": "Darel",
+    "category": "Ветеринарная клиника",
+    "description": "Одна из старейших ветклиник Ташкента, более 30 лет работы. 3176 подписчиков в Instagram.",
+    "city": "Ташкент",
+    "district": "Яшнабадский район",
+    "address": "просп. Мирзо Улугбека, 1/1-6, 1 этаж",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 71 268 18 85", "+998 71 267 25 65"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": "https://instagram.com/darel_uz",
+      "facebook": "https://facebook.com/darel.uz"
+    },
+    "working_hours": {
+      "daily": "09:00–17:30"
+    },
+    "services": [
+      "УЗИ-диагностика",
+      "Рентген",
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-003",
+    "name": "Клиника «Доктор Айболит»",
+    "name_local": "Doctor Aibolit",
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника с двумя филиалами в Ташкенте: основной на ул. Насаф и филиал на ул. Гагарина.",
+    "city": "Ташкент",
+    "district": "Яшнабадский район",
+    "address": "ул. Насаф, 1/1",
+    "address_branch": "ул. Гагарина, 65, кв-л Чиланзар-1, 100115",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 71 277 43 33", "+998 90 987 43 33"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария",
+      "Ветеринарная аптека"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-004",
+    "name": "Doktor-Animal",
+    "name_local": "Doktor & Animals",
+    "category": "Ветеринарная клиника + аптека",
+    "description": "Ветеринарная клиника с аптекой. Юридическое лицо: ООО GRAND VET SERVIS.",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "мсг Ялангач, 27А",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 71 275 96 69"],
+    "email": "intervetfarm2011@mail.ru",
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария",
+      "Ветеринарная аптека",
+      "Стерилизация кошек и собак",
+      "УЗИ-диагностика"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-005",
+    "name": "Nur Vet",
+    "name_local": "Nur Vet Farm Servis",
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника с несколькими филиалами в Ташкенте. ЧП «Nur Vet Farm Servis».",
+    "city": "Ташкент",
+    "district": "Чиланзарский район",
+    "address": "кв-л Чиланзар-2, ул. Гагарина 1, 100115",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 71 277 62 08", "+998 97 411 69 65"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-006",
+    "name": "Top Animals",
+    "name_local": "Top Animals",
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника, работающая с 2011 года. Специалисты — владельцы домашних животных с опытом работы со всеми сложностями.",
+    "city": "Ташкент",
+    "district": null,
+    "address": null,
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 94 666 77 37", "+998 93 571 77 37"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно"
+    },
+    "services": [
+      "УЗИ-диагностика",
+      "Хирургия",
+      "Диагностика"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": true,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-007",
+    "name": "Star Vet",
+    "name_local": "Star Vet",
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника с 10+ летним стажем. Работает с кошками, собаками, птицами. Международные ветеринарные стандарты.",
+    "city": "Ташкент",
+    "district": "Юнусабадский район",
+    "address": "кв-л Киёт, 68А",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": "https://facebook.com/starvet.uz"
+    },
+    "working_hours": null,
+    "services": [
+      "Хирургия",
+      "Диагностика",
+      "Лечение кошек, собак, птиц"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-008",
+    "name": "Deep Forest Animals",
+    "name_local": "Deep Forest Animals",
+    "category": "Ветеринарная клиника + аптека",
+    "description": "ООО «Deep Forest Animals». Широкий спектр услуг: аптека, стрижка, вызов на дом, кастрация, чипирование, вакцинация, стационар.",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "ул. Феруза, 24, 100124",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": ["+998 71 263 41 16", "+998 99 832 79 39", "+998 90 935 70 09", "+998 90 825 23 25"],
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Ветеринарная аптека",
+      "Стрижка",
+      "Вызов на дом",
+      "Кастрация",
+      "Обработка от паразитов",
+      "Подрезка клюва",
+      "Эвтаназия",
+      "Чипирование",
+      "Вакцинация",
+      "Стационар"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-009",
+    "name": "Круглосуточная клиника (Учтепинский р-н)",
+    "name_local": null,
+    "category": "Ветеринарная клиника",
+    "description": "Круглосуточная ветеринарная клиника в Чиланзарском районе. Рядом: Халк Банк Учтепинский филиал.",
+    "city": "Ташкент",
+    "district": "Учтепинский район",
+    "address": "кв-л Чиланзар-12, ул. Фархада, 3А",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно (24/7)"
+    },
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": true,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-010",
+    "name": "Ветклиника на Буюк Ипак Йули, 77",
+    "name_local": null,
+    "category": "Ветеринарная клиника + лаборатория + аптека",
+    "description": "Круглосуточная ветклиника с лабораторией и аптекой на Буюк Ипак Йули.",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "ул. Буюк Ипак Йули, 77",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно (24/7)"
+    },
+    "services": [
+      "Общая ветеринария",
+      "Лаборатория",
+      "Ветеринарная аптека"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": true,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-011",
+    "name": "Vet Drug (Буюк Ипак Йули, 473/19)",
+    "name_local": "Vet Drug",
+    "category": "Ветеринарная клиника + аптека",
+    "description": "Круглосуточная ветклиника с аптекой. Вакцинации, сложные хирургические операции. Специалисты: ратолог, орнитолог, УЗИ и рентген.",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "ул. Буюк Ипак Йули, 473/19",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно (24/7)"
+    },
+    "services": [
+      "Ветеринарная аптека",
+      "Вакцинация",
+      "Хирургия",
+      "Ратология",
+      "Орнитология",
+      "УЗИ-диагностика",
+      "Рентген"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": true,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-012",
+    "name": "NBS Vet Service (пр. Мирзо Улугбека, 49)",
+    "name_local": "NBS VET SERVICE",
+    "category": "Ветеринарная клиника + лаборатория",
+    "description": "Ветклиника с лабораторией. Юр. лицо: NBS VET SERVICE LTD.",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "просп. Мирзо Улугбека, 49, 111227",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария",
+      "Лаборатория"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-013",
+    "name": "Doctor Vet (Авиасозлар-2)",
+    "name_local": "Doctor Vet",
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника в Яшнабадском районе. Рядом: рынок Авиасозлар.",
+    "city": "Ташкент",
+    "district": "Яшнабадский район",
+    "address": "м-в Авиасозлар-2, 56А, 100204",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-014",
+    "name": "Ветклиника (ул. Феруза, 18А)",
+    "name_local": null,
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника в Мирзо-Улугбекском районе.",
+    "city": "Ташкент",
+    "district": "Мирзо-Улугбекский район",
+    "address": "м-в Феруза-1, ул. Феруза, 18А",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-015",
+    "name": "Ветклиника (м-в Каракамыш-2/4)",
+    "name_local": null,
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника в Алмазарском районе.",
+    "city": "Ташкент",
+    "district": "Алмазарский район",
+    "address": "м-в Каракамыш-2/4, 1/1",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-016",
+    "name": "Ветклиника (ул. Олмос, 13)",
+    "name_local": null,
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника на улице Олмос.",
+    "city": "Ташкент",
+    "district": null,
+    "address": "ул. Олмос, 13",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "08:00–20:00"
+    },
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-017",
+    "name": "Ветклиника (ул. Рихсили, 2А)",
+    "name_local": null,
+    "category": "Ветеринарная клиника",
+    "description": "Ветеринарная клиника на улице Рихсили.",
+    "city": "Ташкент",
+    "district": null,
+    "address": "ул. Рихсили, 2А",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": null,
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": false,
+    "image_url": null,
+    "status": "active"
+  },
+  {
+    "id": "vet-018",
+    "name": "VET LIDER (ТашГРЭС, 26)",
+    "name_local": "VET LIDER",
+    "category": "Ветеринарная клиника",
+    "description": "Круглосуточная ветеринарная клиника в Юнусабадском районе.",
+    "city": "Ташкент",
+    "district": "Юнусабадский район",
+    "address": "мкр ТашГРЭС, 26/10, 100164",
+    "coordinates": {
+      "lat": null,
+      "lng": null
+    },
+    "phone": null,
+    "email": null,
+    "website": null,
+    "social_media": {
+      "telegram": null,
+      "instagram": null,
+      "facebook": null
+    },
+    "working_hours": {
+      "daily": "Круглосуточно (24/7)"
+    },
+    "services": [
+      "Общая ветеринария"
+    ],
+    "rating": null,
+    "reviews_count": null,
+    "is_24h": true,
+    "image_url": null,
+    "status": "active"
+  }
+]
